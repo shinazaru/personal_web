@@ -28,4 +28,5 @@ code {
 .paragraph.sub {
   color: white;
   font-size: calc(8px + 1vmin);
+  padding-bottom: 5px;
 }
