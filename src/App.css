@@ -26,3 +26,45 @@
     transform: rotate(360deg);
   }
 }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.paragraph {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph.main {
+    font-size: calc(35px + 2vmin);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.paragraph.sub {
+  color: white;
+  font-size: calc(8px + 1vmin);
+  padding-bottom: 5px;
+}
+
+li {
+  display: inline;
+}
+
+nav.main-navbar {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: rgb(153, 153, 153);
+  background-color: rgba(255,255,255,0.1) !important;
+  padding: 0;
+  margin: 0;
+  border-bottom: 0.1px solid rgba(255,255,255,0.1);
+  /* overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%; */
+}
